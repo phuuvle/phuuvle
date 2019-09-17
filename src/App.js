@@ -15,8 +15,8 @@ class App extends Component {
           <Header transparent title="phuuvle" style={{color: 'white'}}>
             <Navigation>
               <Link to="/">Home</Link>
-              <Link to="/projects">Projects</Link>
-              <Link to="/photos">Photos</Link>
+              {/* <Link to="/projects">Projects</Link>
+              <Link to="/photos">Photos</Link> */}
               <a href={Pdf} target="_blank">Resume</a>
             </Navigation>
           </Header>
