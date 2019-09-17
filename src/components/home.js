@@ -48,8 +48,8 @@ class Home extends Component {
                                     My portfolio and personal website
                                 </CardText>
                                 <CardActions border>
-                                    <Button colored><a target="_blank" href='http://github.com'>View</a></Button>
-                                    <Button colored><a target="_blank" href='http://github.com'>Source</a></Button>
+                                    <Button colored><a target="_blank" href='https://phuuvle.herokuapp.com/'>View</a></Button>
+                                    <Button colored><a target="_blank" href='https://github.com/phuuvle/phuuvle'>Source</a></Button>
                                 </CardActions>
                         </Card>
 
@@ -59,8 +59,8 @@ class Home extends Component {
                                 Networking for pooled investments
                                 </CardText>
                                 <CardActions border>
-                                    <Button colored><a target="_blank" href='http://github.com'>View</a></Button>
-                                    <Button colored><a target="_blank" href='http://github.com'>Source</a></Button>
+                                    <Button colored><a target="_blank" href='https://crowdvest-84514.firebaseapp.com/'>View</a></Button>
+                                    <Button colored><a target="_blank" href='https://github.com/phuuvle/CrowdVest'>Source</a></Button>
                                 </CardActions>
                         </Card>
 
