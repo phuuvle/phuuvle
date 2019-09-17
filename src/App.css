@@ -1,0 +1,75 @@
+.banner-text {
+    text-align: center;
+    color: white;
+    padding-top: 70px;
+}
+
+.banner-text p {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.home-page {
+    text-align: center;
+    
+}
+
+.home-page hr {
+    width: 90%;
+    margin: auto;
+}
+
+.home-page h4 {
+    font-family: 'Karla', sans-serif, bold;
+    font-size: 28px;
+}
+
+.home-page p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;    
+    color: #3E3E3E;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 10px;
+    line-height: 1.5;
+}
+
+.project-grid {
+    display: flex;
+    margin: auto;
+    padding: 5px;
+    justify-content: space-between;
+}
+
+.contact-grid {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    width: 90%;
+    margin: auto;
+}
+
+.contact-grid i{
+    font-size: 4em;
+    padding-bottom: 15px;
+}
+
+.Countdown{
+    margin: 10px auto;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+  
+  .Countdown-col{
+    display: inline-block;
+  }
+  
+  .Countdown-col-element{
+    display: inline-block;
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .Countdown-col-element strong{
+    font-size: 50px;
+  }
