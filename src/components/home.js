@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { Cell, Grid, CardText, Card, CardActions, Button, CardTitle } from 'react-mdl'
 import Countdown from './countdown'
+import Work from './work'
+import Skills from './skills'
 
 class Home extends Component {
     render() {
@@ -70,7 +72,7 @@ class Home extends Component {
                                 Simple IPV4 Router w/ Firewalls
                                 </CardText>
                                 <CardActions border>
-                                    <Button colored><a target="_blank" href='http://github.com'>Source</a></Button>
+                                    <Button colored><a target="_blank" href='https://github.com/phuuvle/router'>Source</a></Button>
                                 </CardActions>
                         </Card>
                         </div>
@@ -78,6 +80,12 @@ class Home extends Component {
                     </Cell>
                     <Cell col={3}>
                         <h4>WORK</h4>
+                        <Work />
+                        <hr />
+                        <h4>SKILLS</h4>
+                        <div style={{fontFamily: 'karla'}}>
+                        <Skills />
+                        </div>
                     </Cell>
                 </Grid>
                 

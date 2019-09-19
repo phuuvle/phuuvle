@@ -87,14 +87,14 @@ class Countdown extends Component {
       <div className="Countdown">
         <span className="Countdown-col">
           <span className="Countdown-col-element">
-              <strong style={{color: '#548FDC'}}>{this.addLeadingZeros(countDown.days)}</strong>
+              <strong style={{color: '#5da6e3'}}>{this.addLeadingZeros(countDown.days)}</strong>
               <span style={{fontSize: '20px', fontFamily:'Open Sans', paddingTop: '20px'}}>{countDown.days === 1 ? 'Day' : 'Days'}</span>
           </span>
         </span>
 
         <span className="Countdown-col">
           <span className="Countdown-col-element">
-            <strong style={{color: '#548FDC'}}>{this.addLeadingZeros(countDown.hours)}</strong>
+            <strong style={{color: '#5da6e3'}}>{this.addLeadingZeros(countDown.hours)}</strong>
             <span style={{fontSize: '20px', fontFamily:'Open Sans', paddingTop: '20px'}}>Hours</span>
           </span>
         </span>
@@ -102,14 +102,14 @@ class Countdown extends Component {
 
         <span className="Countdown-col">
           <span className="Countdown-col-element">
-            <strong style={{color: '#548FDC'}}>{this.addLeadingZeros(countDown.min)}</strong>
+            <strong style={{color: '#5da6e3'}}>{this.addLeadingZeros(countDown.min)}</strong>
             <span style={{fontSize: '20px', fontFamily:'Open Sans', paddingTop: '20px'}}>Min</span>
           </span>
         </span>
 
         <span className="Countdown-col">
           <span className="Countdown-col-element">
-            <strong style={{color: '#548FDC'}}>{this.addLeadingZeros(countDown.sec)}</strong>
+            <strong style={{color: '#5da6e3'}}>{this.addLeadingZeros(countDown.sec)}</strong>
             <span style={{fontSize: '20px', fontFamily:'Open Sans', paddingTop: '20px'}}>Sec</span>
           </span>
         </span>
