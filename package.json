@@ -9,7 +9,7 @@
     "react-dom": "^16.9.0",
     "react-mdl": "^1.11.0",
     "react-router-dom": "^5.0.1",
-    "react-scripts": "0.9.5",
+    "react-scripts": "5.0.1",
     "react-skillbars": "^1.5.1",
     "vertical-timeline-component-react": "^1.1.2"
   },
